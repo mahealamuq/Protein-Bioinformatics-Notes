@@ -472,9 +472,7 @@ For example:
 
 ### Propensity Formula
 
-[
-P(s,a)=\frac{p(s,a)}{p(a)}
-]
+$$P(s,a)=\frac{p(s,a)}{p(a)}$$
 
 Where:
 
