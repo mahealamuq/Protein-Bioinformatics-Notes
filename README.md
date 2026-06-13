@@ -61,32 +61,33 @@ Proteins are made from amino acids. Amino acids have different chemical properti
 
 Secondary structure refers to local folding patterns in proteins.
 
-### Main Classes
+**Main Classes**
 
-- 🌀 **Alpha helix**
-- ➡️ **Beta strand**
-- 📄 **Beta sheet**
-- 🔄 **Turn**
-- 🧵 **Random coil**
+- Alpha helix
+- Beta strand
+- Beta sheet
+- Turn
+- Random coil
 
-### Secondary Structure Symbols
+**Secondary Structure Symbols**
 
 | Symbol | Meaning |
 |---------|---------|
-| 🟢 H | Alpha helix |
-| 🔵 E | Beta strand |
-| ⚪ C | Coil |
-| 🟡 T | Turn |
+|  H | Alpha helix |
+|  E | Beta strand |
+|  C | Coil |
+|  T | Turn |
+
 
 ### Example
 
-#### Protein Sequence
+**Protein Sequence**
 
 ```text
 GHWIATRGQLIREAYEDYRHFSSECPFIP
 ```
 
-#### Predicted Secondary Structure
+**Predicted Secondary Structure**
 
 ```text
 CEEEEECHHHHHHHHHHHCCCHHHCCCCC
@@ -99,13 +100,10 @@ CEEEEECHHHHHHHHHHHCCCHHHCCCCC
 | Sequence | G | H | W | I | A | T | R | G | Q | L | I | R | E | A | Y | E | D | Y | R | H | F | S | S | E | C | P | F | I | P |
 | Structure | C | E | E | E | E | E | C | H | H | H | H | H | H | H | H | H | H | H | C | C | C | H | H | H | C | C | C | C | C |
 
-### Legend
 
-- 🟢 **H** = Alpha helix
-- 🔵 **E** = Beta strand
-- ⚪ **C** = Coil
-- 🟡 **T** = Turn
 
 ### Interpretation
 
 This protein begins with a short **β-strand region (E)**, followed by a long **α-helix region (H)** in the middle of the sequence. The protein ends with several **coil regions (C)** interspersed with a short α-helix segment.
+
+---
