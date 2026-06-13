@@ -499,15 +499,11 @@ Suppose:
 
 Then:
 
-\[
-P(\text{Helix},A)=\frac{0.12}{0.08}=1.5
-\]
+$P(\text{Helix},A)=\frac{0.12}{0.08}=1.5$
 
 Since:
 
-\[
-P(\text{Helix},A) > 1
-\]
+$P(\text{Helix},A) > 1$
 
 Alanine has a strong tendency to occur in **alpha helices**.
 
