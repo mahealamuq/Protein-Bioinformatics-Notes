@@ -466,36 +466,38 @@ Different amino acids have different tendencies to occur in specific secondary s
 
 For example:
 
-- Alanine tends to occur in **alpha helices**
-- Valine tends to occur in **beta strands**
-- Proline often disrupts **alpha helices**
+- **Alanine** tends to occur in alpha helices.
+- **Valine** tends to occur in beta strands.
+- **Proline** often disrupts alpha helices.
 
 ### Propensity Formula
 
-:contentReference[oaicite:0]{index=0}
+\[
+P(s,a)=\frac{p(s,a)}{p(a)}
+\]
 
 Where:
 
 | Symbol | Meaning |
-|---------|---------|
-| \(P(s,a)\) | Propensity of amino acid **a** for structure **s** |
-| \(p(s,a)\) | Probability of amino acid **a** occurring in structure **s** |
-| \(p(a)\) | Overall probability of amino acid **a** occurring in proteins |
+|----------|----------|
+| P(s,a) | Propensity of amino acid *a* for structure *s* |
+| p(s,a) | Probability of amino acid *a* occurring in structure *s* |
+| p(a) | Overall probability of amino acid *a* occurring in proteins |
 
 ### Interpretation
 
 | Propensity Value | Interpretation |
 |------------------|---------------|
-| \(P(s,a) > 1\) | Amino acid favours that structure |
-| \(P(s,a) < 1\) | Amino acid disfavours that structure |
-| \(P(s,a) = 1\) | No preference |
+| P(s,a) > 1 | Amino acid favours that structure |
+| P(s,a) < 1 | Amino acid disfavours that structure |
+| P(s,a) = 1 | No preference |
 
 ### Example
 
 Suppose:
 
-- \(p(\text{Helix},A) = 0.12\)
-- \(p(A) = 0.08\)
+- p(Helix, A) = 0.12
+- p(A) = 0.08
 
 Then:
 
@@ -537,5 +539,4 @@ Alanine has a strong tendency to occur in **alpha helices**.
 ### Summary
 
 The Chou-Fasman method predicts protein secondary structure using amino acid propensities. Amino acids with high propensity values are more likely to form alpha helices or beta strands, making this method one of the earliest statistical approaches to secondary structure prediction.
-
 
