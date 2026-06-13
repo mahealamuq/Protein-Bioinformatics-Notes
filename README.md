@@ -40,4 +40,21 @@ Proteins are made from amino acids. Amino acids have different chemical properti
 
 - **Proline** is important because it can disrupt alpha helices due to its rigid ring structure.
 - **Cysteine** can form **disulphide bridges**, which help stabilize protein structure.
+
+<img width="1055" height="826" alt="image" src="https://github.com/user-attachments/assets/2d269f83-bae6-41bd-8598-e141cfbadeb1" />
+
 ---
+
+## 3. Levels of Protein Structure
+
+| Structure Level | Meaning |
+|----------------|---------|
+| Primary structure | Amino acid sequence |
+| Secondary structure | Local structures such as alpha helices and beta sheets |
+| Tertiary structure | Full 3D folding of one protein chain |
+| Quaternary structure | Interaction between multiple protein chains |
+
+<img width="1086" height="748" alt="image" src="https://github.com/user-attachments/assets/360622e9-69e3-4710-8851-7d0044748af8" />
+
+---
+
