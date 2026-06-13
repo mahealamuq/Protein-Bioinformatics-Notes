@@ -195,19 +195,74 @@ A **beta strand (β-strand)** is an extended segment of a protein chain. Multipl
 
 ### Simple Representation
 
-```text
-Beta Strands
+<img width="921" height="616" alt="image" src="https://github.com/user-attachments/assets/0d61fcbd-6681-454d-b8d0-6696adff2953" />
 
-→→→→→
-|||||
-←←←←←
-
-Hydrogen bonds connect adjacent strands,
-forming a beta sheet.
-```
 
 ### Summary
 
 Beta strands are extended protein segments that associate through hydrogen bonds to form beta sheets. These structures are common in many proteins and contribute significantly to protein stability, folding, and function.
+
+---
+
+## 7. Random Coil
+
+A **random coil** is a protein region that does not adopt a regular secondary structure such as an alpha helix or beta sheet.
+
+### Key Features
+
+- Lacks a repeating, ordered structure
+- Highly flexible compared to helices and sheets
+- Often found in loops and linker regions
+- Can connect alpha helices and beta sheets
+- Frequently involved in protein interactions and binding sites
+- May become structured upon binding to other molecules
+
+### Characteristics of Random Coils
+
+| Feature | Description |
+|----------|-------------|
+| Structure | Irregular and flexible |
+| Stability | Less stable than helices and sheets |
+| Function | Connects structured regions and enables flexibility |
+| Location | Loops, turns, linker regions, and protein surfaces |
+| Secondary Structure Symbol | C (Coil) |
+
+### Example Representation
+
+```text
+Alpha Helix      Random Coil      Beta Sheet
+HHHHHHHHHHH       CCCCCCC        EEEEEEEE
+```
+
+### Proteins Containing Random Coil Regions
+
+| Protein Type | Role of Random Coil |
+|-------------|---------------------|
+| Enzymes | Flexible active-site loops |
+| Antibodies | Antigen-binding loops |
+| Transcription Factors | DNA-binding flexibility |
+| Signalling Proteins | Protein-protein interactions |
+
+### Predicted Secondary Structure Example
+
+```text
+Sequence:
+GHWIATRGQLIREAYEDYRHFSSECPFIP
+
+Structure:
+CEEEEECHHHHHHHHHHHCCCHHHCCCCC
+```
+
+In this example:
+
+- **E** = Beta strand
+- **H** = Alpha helix
+- **C** = Random coil
+
+The random coil regions occur at the beginning, middle, and end of the sequence where no regular secondary structure is predicted.
+
+### Summary
+
+Random coils are flexible, irregular protein regions that lack the repeating patterns of alpha helices and beta sheets. They play important roles in connecting structured domains, enabling flexibility, and facilitating molecular interactions.
 
 ---
