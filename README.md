@@ -57,4 +57,55 @@ Proteins are made from amino acids. Amino acids have different chemical properti
 <img width="1086" height="748" alt="image" src="https://github.com/user-attachments/assets/360622e9-69e3-4710-8851-7d0044748af8" />
 
 ---
+## 4. Protein Secondary Structure
 
+Secondary structure refers to local folding patterns in proteins.
+
+### Main Classes
+
+- 🌀 **Alpha helix**
+- ➡️ **Beta strand**
+- 📄 **Beta sheet**
+- 🔄 **Turn**
+- 🧵 **Random coil**
+
+### Secondary Structure Symbols
+
+| Symbol | Meaning |
+|---------|---------|
+| 🟢 H | Alpha helix |
+| 🔵 E | Beta strand |
+| ⚪ C | Coil |
+| 🟡 T | Turn |
+
+### Example
+
+#### Protein Sequence
+
+```text
+GHWIATRGQLIREAYEDYRHFSSECPFIP
+```
+
+#### Predicted Secondary Structure
+
+```text
+CEEEEECHHHHHHHHHHHCCCHHHCCCCC
+```
+
+### Position-by-Position Representation
+
+| Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 |
+|----------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Sequence | G | H | W | I | A | T | R | G | Q | L | I | R | E | A | Y | E | D | Y | R | H | F | S | S | E | C | P | F | I | P |
+| Structure | C | E | E | E | E | E | C | H | H | H | H | H | H | H | H | H | H | H | C | C | C | H | H | H | C | C | C | C | C |
+
+### Legend
+
+- 🟢 **H** = Alpha helix
+- 🔵 **E** = Beta strand
+- ⚪ **C** = Coil
+- 🟡 **T** = Turn
+
+### Interpretation
+
+This protein begins with a short **β-strand region (E)**, followed by a long **α-helix region (H)** in the middle of the sequence. The protein ends with several **coil regions (C)** interspersed with a short α-helix segment.
