@@ -324,3 +324,57 @@ HHHHHHHHHH       TTTT       EEEEEEEE
 ### Summary
 
 Turns are short protein segments that reverse the direction of the polypeptide chain. They connect secondary structure elements such as alpha helices and beta sheets and play a crucial role in protein folding and stability.
+
+---
+
+## 7. Why Predict Secondary Structure?
+
+Secondary structure prediction is an important step in bioinformatics and protein analysis because it provides valuable information about protein folding and function.
+
+### Reasons for Predicting Secondary Structure
+
+- Helps predict the **tertiary (3D) structure** of a protein.
+- Provides clues about **protein function**.
+- Assists in analysing proteins when the **experimental 3D structure is unknown**.
+- Improves the alignment of **distantly related proteins**.
+- Protein structure is often **more conserved than amino acid sequence** during evolution.
+
+### Applications
+
+| Benefit | Explanation |
+|----------|-------------|
+| Tertiary Structure Prediction | Secondary structure information helps build 3D protein models. |
+| Functional Analysis | Structural regions can indicate active sites, binding sites, and biological roles. |
+| Unknown Protein Analysis | Useful when no experimentally determined structure is available. |
+| Sequence Alignment | Structural information improves alignments between distantly related proteins. |
+| Evolutionary Studies | Conserved structural elements can reveal evolutionary relationships. |
+
+### Example
+
+Two proteins may have:
+
+```text
+Low Sequence Similarity
+        ↓
+Similar Secondary Structure
+        ↓
+Similar Function
+```
+
+This is because protein structure is often conserved even when amino acid sequences have diverged over evolutionary time.
+
+### Importance in Bioinformatics
+
+| Area | Use of Secondary Structure Prediction |
+|-------|--------------------------------------|
+| Protein Annotation | Predicting protein function |
+| Structural Biology | Building 3D models |
+| Drug Discovery | Identifying functional regions and targets |
+| Comparative Genomics | Detecting distant homologues |
+| Evolutionary Analysis | Studying structural conservation |
+
+### Summary
+
+Secondary structure prediction bridges the gap between protein sequence and three-dimensional structure. It helps researchers understand protein function, improve sequence analysis, and investigate proteins whose experimental structures are not yet available.
+
+---
