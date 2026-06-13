@@ -269,3 +269,58 @@ The random coil regions occur at the beginning, middle, and end of the sequence 
 Random coils are flexible, irregular protein regions that lack the repeating patterns of alpha helices and beta sheets. They play important roles in connecting structured domains, enabling flexibility, and facilitating molecular interactions.
 
 ---
+
+## 8. Turn
+
+A **turn** is a short protein secondary structure that reverses the direction of the polypeptide chain. Turns help proteins fold into compact three-dimensional shapes.
+
+### Key Features
+
+- Connect different secondary structure elements
+- Cause the protein chain to change direction
+- Usually contain **3 to 5 amino acids**
+- Often located on the protein surface
+- Frequently involve hydrogen bonding
+- Important for protein folding and stability
+
+### Characteristics of Turns
+
+| Feature | Description |
+|----------|-------------|
+| Structure | Short bend in the polypeptide chain |
+| Length | Usually 3–5 amino acids |
+| Function | Changes chain direction |
+| Location | Often found between helices and sheets |
+| Stability | Often stabilised by hydrogen bonds |
+| Secondary Structure Symbol | T |
+
+### Types of Turns
+
+| Type | Description |
+|--------|-------------|
+| Beta Turn (β-turn) | Most common type of turn |
+| Gamma Turn (γ-turn) | Smaller turn involving three residues |
+| Hairpin Turn | Connects adjacent beta strands |
+
+### Example Representation
+
+```text
+Alpha Helix      Turn       Beta Sheet
+HHHHHHHHHH       TTTT       EEEEEEEE
+```
+
+### Beta Turn Example
+
+<img width="1351" height="901" alt="image" src="https://github.com/user-attachments/assets/855a7f4b-0e3b-4dbe-ba7d-b57ca7b8fe81" />
+
+### Biological Importance
+
+- Enables proteins to fold into compact structures
+- Connects alpha helices and beta sheets
+- Often found in active sites and binding regions
+- Helps determine the overall three-dimensional shape of proteins
+
+
+### Summary
+
+Turns are short protein segments that reverse the direction of the polypeptide chain. They connect secondary structure elements such as alpha helices and beta sheets and play a crucial role in protein folding and stability.
