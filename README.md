@@ -327,7 +327,7 @@ Turns are short protein segments that reverse the direction of the polypeptide c
 
 ---
 
-## 7. Why Predict Secondary Structure?
+## 9. Why Predict Secondary Structure?
 
 Secondary structure prediction is an important step in bioinformatics and protein analysis because it provides valuable information about protein folding and function.
 
