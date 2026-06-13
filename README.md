@@ -156,3 +156,58 @@ Residue i      →      Residue i+4
 The **alpha helix** is one of the most common protein secondary structures. It is stabilised by hydrogen bonds between amino acids four positions apart and plays an important role in the structure and function of many proteins.
 
 ---
+## 6. Beta Strand and Beta Sheet
+
+A **beta strand (β-strand)** is an extended segment of a protein chain. Multiple beta strands can align and interact through hydrogen bonds to form a **beta sheet (β-sheet)**.
+
+### Key Features
+
+- Stabilised by **hydrogen bonds between adjacent strands**
+- Can involve **longer-range interactions** between distant regions of a protein sequence
+- Beta sheets may be **parallel** or **antiparallel**
+- Can fold into **curved sheets** or **beta barrels**
+- Important for protein stability and structural support
+
+### Beta Strand vs Beta Sheet
+
+| Structure | Description |
+|------------|-------------|
+| Beta Strand | A single extended segment of a protein chain |
+| Beta Sheet | Multiple beta strands connected by hydrogen bonds |
+
+### Characteristics of Beta Sheets
+
+| Feature | Description |
+|----------|-------------|
+| Shape | Extended and pleated |
+| Stabilisation | Hydrogen bonds between strands |
+| Types | Parallel and antiparallel |
+| Interactions | Often between distant sequence regions |
+| Structures Formed | Curved sheets and beta barrels |
+
+### Examples
+
+| Protein | Role |
+|----------|------|
+| Fibroin (Silk) | Structural protein providing strength and flexibility |
+| Porin Membrane Proteins | Form channels in bacterial outer membranes |
+| Amyloid Fibrils | Protein aggregates associated with several diseases |
+
+### Simple Representation
+
+```text
+Beta Strands
+
+→→→→→
+|||||
+←←←←←
+
+Hydrogen bonds connect adjacent strands,
+forming a beta sheet.
+```
+
+### Summary
+
+Beta strands are extended protein segments that associate through hydrogen bonds to form beta sheets. These structures are common in many proteins and contribute significantly to protein stability, folding, and function.
+
+---
