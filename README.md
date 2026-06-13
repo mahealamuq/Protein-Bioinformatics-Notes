@@ -19,3 +19,25 @@ Bioinformatics helps answer questions such as:
 1. Protein sequence to secondary structure
    
 2. Protein sequence to function and biological systems
+
+---
+## 2. Amino Acids and Protein Sequence
+
+Proteins are made from amino acids. Amino acids have different chemical properties that influence protein structure and function.
+
+**Amino Acid Groups**
+
+| Group | Description | Examples |
+|---------|-------------|----------|
+| Basic | Accept protons | Lysine, Arginine |
+| Acidic | Donate protons | Aspartic acid, Glutamic acid |
+| Polar | Contain polar groups | Serine, Threonine |
+| Nonpolar | Hydrophobic | Valine, Leucine |
+| Aromatic | Ring structures | Phenylalanine, Tyrosine |
+| Special | Unusual structural role | Proline, Cysteine |
+
+**Notes**
+
+- **Proline** is important because it can disrupt alpha helices due to its rigid ring structure.
+- **Cysteine** can form **disulphide bridges**, which help stabilize protein structure.
+---
