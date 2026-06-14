@@ -148,7 +148,8 @@ Residue i      →      Residue i+4
         Hydrogen Bond
 ```
 
-<img width="906" height="146" alt="image" src="https://github.com/user-attachments/assets/b72641a1-8b64-40d1-8ad5-3a3320b997c9" />
+<img width="1146" height="916" alt="image" src="https://github.com/user-attachments/assets/5d5315c5-2281-4817-89a6-3e00be67504e" />
+
 
 
 ### Summary
@@ -507,6 +508,7 @@ $P(\text{Helix},A) > 1$
 
 Alanine has a strong tendency to occur in **alpha helices**.
 
+
 ### Chou-Fasman Prediction Process
 
 1. Calculate amino acid propensities.
@@ -524,13 +526,194 @@ Alanine has a strong tendency to occur in **alpha helices**.
 - Historically important in protein bioinformatics.
 
 ### Limitations
-
-- Uses only local sequence information.
-- Ignores long-range interactions.
-- Less accurate than modern machine learning methods.
+- Protein folding depends on more than local sequence.
+- Long-range interactions are difficult to predict.
+- Environment matters, including pH, temperature, membrane, water, and ligands.
+- Proline and glycine can disrupt helices.
+- Prediction accuracy is not perfect.
 - Typically achieves lower prediction accuracy than PSI-PRED or JPred.
 
 ### Summary
 
 The Chou-Fasman method predicts protein secondary structure using amino acid propensities. Amino acids with high propensity values are more likely to form alpha helices or beta strands, making this method one of the earliest statistical approaches to secondary structure prediction.
+
+<img width="901" height="760" alt="image" src="https://github.com/user-attachments/assets/03b093eb-35f0-4aae-ac9d-56b708170947" />
+
+---
+
+## 13. Protein Function Prediction
+
+Protein function can be predicted using:
+
+- Sequence similarity
+- Conserved domains
+- Motifs
+- Structural similarity
+- Binding sites
+- Subcellular localisation
+- Protein-protein interaction data
+- Biological networks
+
+---
+
+## 14. Protein Localisation
+
+Protein location is important because it affects function.
+
+Proteins may be located in:
+
+- Cytosol
+- Nucleus
+- Mitochondria
+- Endoplasmic reticulum
+- Golgi apparatus
+- Lysosome
+- Cell membrane
+- Secretory pathway
+
+Prediction can be based on sequence and structure.
+
+---
+
+## 15. Signal Peptides and Transmembrane Regions
+
+Secretory and membrane proteins often contain signal peptides or transmembrane regions.
+
+- Common Features
+- Hydrophobic core region
+- High alpha-helical propensity
+- Specific sequence patterns
+- Cleavage sites
+
+These features can be used by prediction tools.
+
+---
+
+## 16. Protein Binding Sites
+
+Binding sites are specific regions of a protein where interactions with other molecules occur. These interactions are essential for many biological processes, including signal transduction, enzyme activity, gene regulation, and molecular recognition.
+
+### Types of Binding Sites
+
+| Binding Site Type | Description |
+|------------------|-------------|
+| Protein-Protein Interface | Surface region used for interaction with another protein |
+| Protein-DNA Interface | Region that binds DNA molecules |
+| Ligand Pocket | Deep cleft or pocket that binds small molecules |
+| Transient Site | Temporary interaction site formed during specific biological processes |
+| Permanent Site | Stable interaction site that remains associated for long periods |
+
+
+Protein binding sites are specialized regions that allow proteins to interact with other molecules such as proteins, DNA, RNA, and small ligands. These interactions are fundamental to cellular function and biological regulation.
+
+---
+
+## 17. Features Used to Identify Binding Sites
+
+Binding sites may be predicted using:
+
+- Conservation
+- Surface residue properties
+- Hydrophobic patches
+- Charged residues
+- Aromatic residues
+- Long loops
+- Beta-sheet-rich regions
+- Homology to known proteins
+- Machine learning
+
+---
+
+## 18. Protein Interaction Assays
+
+Protein interaction assays are experimental techniques used to identify and study interactions between proteins and other biological molecules. These methods help researchers understand cellular pathways, protein functions, and molecular networks.
+
+### Common Protein Interaction Assays
+
+| Method | Purpose |
+|----------|---------|
+| Yeast Two-Hybrid (Y2H) | Detects protein-protein interactions |
+| Mass Spectrometry (MS) | Identifies proteins and peptides in complex samples |
+| TAP Tagging | Purifies protein complexes for interaction analysis |
+| Gene Co-expression Analysis | Identifies genes with similar expression patterns |
+| Protein Microarray | Detects direct protein interactions on a large scale |
+| Synthetic Lethality | Identifies genetic interactions between genes |
+
+Protein interaction assays are essential tools in molecular biology and bioinformatics. Techniques such as **Yeast Two-Hybrid**, **Mass Spectrometry**, **TAP Tagging**, **Protein Microarrays**, and **Synthetic Lethality** help identify and characterize interactions that govern cellular processes.
+
+---
+
+## 19. Yeast Two-Hybrid System
+
+Yeast two-hybrid detects interactions between two proteins.
+
+**Main Idea**
+- One protein is fused to a DNA-binding domain.
+- Another protein is fused to an activation domain.
+- If the two proteins interact, the transcription factor becomes functional.
+- This activates a reporter gene.
+
+**Limitation**
+
+Yeast two-hybrid can produce many false positives, so results need validation.
+
+---
+
+## 20. Biological Networks
+
+Biological systems can be represented as networks.
+
+**Network Components**
+
+| Term    | Meaning                       |
+| ------- | ----------------------------- |
+| Node    | Gene, protein, or molecule    |
+| Edge    | Interaction or relationship   |
+| Hub     | Highly connected node         |
+| Module  | Group of connected components |
+| Pathway | Ordered biological process    |
+
+---
+
+## 21. Types of Biological Networks
+
+| Network Type                        | Description                                    |
+| ----------------------------------- | ---------------------------------------------- |
+| Protein-protein interaction network | Shows protein interactions                     |
+| Signalling network                  | Shows signal transmission                      |
+| Transcriptional regulatory network  | Shows transcription factor and gene regulation |
+| Metabolic network                   | Shows enzyme and metabolite reactions          |
+| Gene co-expression network          | Shows genes with similar expression patterns   |
+
+---
+## 22. Data Integration in Protein Bioinformatics
+
+Protein function is often better understood by combining multiple data types.
+
+Examples:
+
+- Protein-protein interaction data
+- Gene expression data
+- Protein localisation data
+- Protein sequence data
+- Protein structure data
+- Pathway data
+
+Integration helps identify proteins that may not be obvious from one dataset alone.
+
+---
+
+##23. Key Learning Outcomes
+
+After studying this repository, you should understand:
+
+- What protein secondary structure is
+- Difference between alpha helix and beta sheet
+- Why secondary structure prediction is useful
+- How the Chou-Fasman method works
+- How protein localisation can be predicted
+- How protein binding sites can be identified
+- How protein interaction data is generated
+- How biological networks are used to predict function
+- Why data integration is important in protein bioinformatics
 
