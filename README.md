@@ -716,4 +716,30 @@ After studying this repository, you should understand:
 - How protein interaction data is generated
 - How biological networks are used to predict function
 - Why data integration is important in protein bioinformatics
+  
+---
+## Protein Secondary Structure Prediction Using the Chou-Fasman Method
 
+This repository contains a Jupyter Notebook implementation of protein secondary structure prediction using the Chou-Fasman statistical prediction method.
+
+The notebook reads protein sequences from a FASTA file and predicts the secondary structure of each protein independently based on amino acid propensity values.
+
+### Running the Notebook
+**Clone the repository:**
+```
+git clone https://github.com/mahealamuq/Protein-Bioinformatics-Notes_IB.git
+```
+**Enter the repository:**
+
+```
+cd protein-secondary-structure-prediction
+```
+**Launch Jupyter Notebook:**
+```
+jupyter notebook
+```
+**Open:**
+```
+protein_bioinformatics.ipynb
+```
+**Run all cells.**
